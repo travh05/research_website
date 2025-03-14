@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Yao Lab - Research</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yao Lab, University of Toronto, Research Page">
+  <meta name="author" content="">
+  <!-- Le styles -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+  <link href="css/theme.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- Header / Jumbotron -->
+    <header class="jumbotron subhead" id="overview">
+      <p class="lead">University of Toronto</p>
+      <h1>Yao Lab</h1>
+    </header>
+
+    <!-- Navigation -->
+    <div class="masthead">
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="container">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="people.html">People</a></li>
+              <li class="active"><a href="#">Research</a></li>
+              <li><a href="publications.html">Publications</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="teaching.html">Teaching</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Main Content -->
+    <div class="row-fluid">
+      <!-- Side Navigation -->
+      <div class="span3 bs-docs-sidebar" id="navparent">
+        <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
+          <li><a href="#overview-section">Overview</a></li>
+          <li><a href="#focus-area-1">Focus Area 1</a></li>
+          <li><a href="#focus-area-2">Focus Area 2</a></li>
+          <li><a href="#focus-area-3">Focus Area 3</a></li>
+          <li><a href="#focus-area-4">Focus Area 4</a></li>
+          <li><a href="#focus-area-5">Focus Area 5</a></li>
+        </ul>
+      </div>
+
+      <!-- Research Sections -->
+      <div class="span8 offset1">
+        <!-- Overview Section -->
+        <section id="overview-section">
+          <div class="page-header">
+            <h3>Overview</h3>
+          </div>
+          <p>
+            Briefly describe the main goals and objectives of your research here. 
+            This could include an introduction to your lab’s mission or a high-level summary 
+            of the areas you explore.
+          </p>
+          <hr>
+        </section>
+
+        <!-- Focus Area 1 -->
+        <section id="focus-area-1">
+          <div class="page-header">
+            <h3>Focus Area 1</h3>
+          </div>
+          <img src="images/scientist-with-petri-dish.jpg" class="float-right" alt="Focus Area 1"/>
+          <p>
+            Provide a short description of this research focus. For example, 
+            discuss the primary questions, methods, or breakthroughs in this area.
+          </p>
+          <hr>
+        </section>
+
+        <!-- Focus Area 2 -->
+        <section id="focus-area-2">
+          <div class="page-header">
+            <h3>Focus Area 2</h3>
+          </div>
+          <img src="images/brainstorming-paper.jpg" class="float-right" alt="Focus Area 2"/>
+          <p>
+            Highlight the key objectives, techniques, or collaborations related 
+            to this second research focus.
+          </p>
+          <hr>
+        </section>
+
+        <!-- Focus Area 3 -->
+        <section id="focus-area-3">
+          <div class="page-header">
+            <h3>Focus Area 3</h3>
+          </div>
+          <img src="images/man-with-microscope.jpg" class="float-right" alt="Focus Area 3"/>
+          <p>
+            Summarize your work in this area, including any notable findings or 
+            ongoing experiments.
+          </p>
+          <hr>
+        </section>
+
+        <!-- Focus Area 4 -->
+        <section id="focus-area-4">
+          <div class="page-header">
+            <h3>Focus Area 4</h3>
+          </div>
+          <img src="images/solar-2.jpg" class="float-right" alt="Focus Area 4"/>
+          <p>
+            Share a brief overview of the techniques, equipment, or research 
+            questions you address in this focus area.
+          </p>
+          <hr>
+        </section>
+
+        <!-- Focus Area 5 -->
+        <section id="focus-area-5">
+          <div class="page-header">
+            <h3>Focus Area 5</h3>
+          </div>
+          <img src="images/energy.jpg" class="float-right" alt="Focus Area 5"/>
+          <p>
+            Describe this research area’s significance and any future directions 
+            or projects you plan to pursue.
+          </p>
+          <hr>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span5">
+          <h3>Contact Information</h3>
+          <p><b>Office Hours: </b>Monday-Friday (8.00am - 5.00pm)</p>
+          <p><b>Phone: </b>999-999-9999</p>
+          <p><b>Cell: </b>999-999-9999</p>
+          <a href="mailto:your.email@uni.edu">Email</a>
+        </div>
+        <div class="span2">
+          <a href="https://mybrandnewlogo.com/">
+            <img src="thumbs/generic-logo.JPG" alt="research-lab-logo"/>
+          </a>
+        </div>
+        <div class="span5">
+          <h3>Address</h3>
+          <p>
+            9999 Generic Research Laboratory<br>
+            999 Fake Street Avenue<br>
+            City, State<br>
+            Country ZIP
+          </p>
+          <a href="http://maps.google.com/">Show Map</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Enable scrollspy for side navigation
+      $(document.body).scrollspy({
+        target: "#navparent"
+      });
+    });
+  </script>
+</body>
+</html>
